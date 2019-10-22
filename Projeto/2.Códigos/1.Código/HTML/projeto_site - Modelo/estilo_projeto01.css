@@ -1,0 +1,71 @@
+body{
+	padding:0px;
+	margin:0px;
+	background:url("imagens/fundo-cinza.jpg");
+	font-family:Monotype Corsiva;
+}
+
+p{
+	text-align:justify;
+}
+
+.clear{
+	clear:both;
+}
+
+.div_container{
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.coluna1, .coluna2, .coluna3{
+	width:275px;
+	height:300px;
+	background:#d9d9d9;
+	margin-bottom:20px;
+	float:left;
+	padding:8px;
+	border-radius:8px;
+}
+.coluna2{
+	margin-left:25px;
+	margin-right:25px;
+}
+
+.div_cabecalho{
+	background:url("imagens/imagem3.jpg") top repeat-x;
+	height:145px;
+}
+
+
+.div_logomarca{
+	width:200px;
+	float:left;
+	display:block;
+	padding-top:40px;
+}
+
+.div_menu{
+	width:600px;
+	float:right;
+	text-align:right;
+	padding-top:120px;
+	display:block;
+	font-size:24px;
+}
+
+.div_conteudo{
+	padding-top:60px;
+	padding-bottom:20px;
+	font-size:24px;
+}
+
+.div_rodape{
+	background:#d9d9d9;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-size:24px;
+}
